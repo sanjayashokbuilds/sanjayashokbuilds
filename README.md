@@ -1,16 +1,18 @@
-## Hi there 👋
 
-<!--
-**sanjayashokbuilds/sanjayashokbuilds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Sanjay 
 
-Here are some ideas to get you started:
+Economics student at UCL who likes building things that solve real problems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+This GitHub is where I build in public. Everything I make goes here, so you can see what I'm building and how my skills are progressing over time.
+
+## ⏱ 24-hour builds
+Right now I'm doing a series of 24-hour builds: picking a real problem, building a working solution from scratch in 24 hours, and shipping it. The goal is to get faster, sharper and more efficient every time.
+
+| # | Project | Problem it solves | Link |
+|---|---------|-------------------|------|
+| 1 | Coming soon | | |
+
+## 📫 Reach me
+- Email: thesgaprotocol@gmail.com
+- LinkedIn: www.linkedin.com/in/sanjay-ashok-57451b313
+- X: @thesgaprotocol1
