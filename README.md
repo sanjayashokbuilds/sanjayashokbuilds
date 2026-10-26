@@ -5,10 +5,19 @@
 <p align="center">
   <img src="https://img.shields.io/badge/UCL-BSc%20Economics-0d1117?style=for-the-badge&labelColor=d4a33a" alt="UCL, BSc Economics">
   <img src="https://img.shields.io/badge/24h%20builds-4%20shipped-0d1117?style=for-the-badge&labelColor=d4a33a" alt="24-hour builds: 4 shipped">
+  <img src="https://img.shields.io/badge/Hackathons-OxHack%202026-0d1117?style=for-the-badge&labelColor=d4a33a" alt="Hackathons: OxHack 2026">
   <img src="https://img.shields.io/badge/Building-in%20public-0d1117?style=for-the-badge&labelColor=d4a33a" alt="Building in public">
 </p>
 
 This GitHub is where I build in public. Everything I make goes here, so you can see what I'm building and how my skills are progressing over time.
+
+---
+
+## 🏆 Hackathons
+
+| Event | Project | What it does | Link |
+|:-:|---|---|:-:|
+| OxHack 2026 | **Cancer Clock** | Forecasts NHS cancer waiting lists hospital by hospital, finds where each one is stuck, and tests what would help. A LightGBM model trained across 130 NHS trusts forecasts each 62-day backlog 12 weeks ahead, back-tested on 12,339 forecasts using only data public at the time. A day-by-day queue simulator with Monte Carlo runs, calibrated to each hospital, estimates what extra capacity could change. For Oxford: +10% treatment capacity, about 28 fewer people waiting past day 62. Built with Completa. | [Demo video](https://youtu.be/L5Cd3Bld5f8) · [Code](https://github.com/sanjayashokbuilds/cancer-clock) |
 
 ---
 
@@ -23,7 +32,7 @@ Right now I'm doing a series of 24-hour builds: picking a real problem, building
 | 3 | **Chit-options** | Works out what a seat in a Tamil chit fund is worth and when members should bid for the pot. Prices each seat as an American option with dynamic programming and Longstaff–Schwartz Monte Carlo, solves the bidding game's Nash equilibrium, and calibrates to real chit-company data, with a playable version running Python in the browser via Pyodide. | [Live app](https://chit-options.netlify.app) · [Code](https://github.com/sanjayashokbuilds/chit-options) |
 | 4 | **Meme-hawkes** | Measures how much of a new memecoin's trading is trades setting off more trades. Decodes every pump.fun trade straight from the Solana blockchain and fits Hawkes processes written from scratch, validated on simulated data. Found that the near-critical "frenzy" in new tokens is mostly a launch-rush artefact (branching ratio 0.95 → 0.58), and reports honestly that it doesn't beat a simple price rule as a dump warning. | [Live app](https://meme-hawkes.streamlit.app) · [Code](https://github.com/sanjayashokbuilds/meme-hawkes) |
 
-**Stack so far:** Python · NumPy · SciPy · pandas · pytest · Bayesian inference · Maximum likelihood · Hawkes processes · Monte Carlo · Dynamic programming · Swiss Ephemeris · Solana RPC · Streamlit · Plotly · Pyodide · JavaScript
+**Stack so far:** Python · NumPy · SciPy · pandas · pytest · LightGBM · Bayesian inference · Maximum likelihood · Hawkes processes · Monte Carlo · Queueing simulation · Dynamic programming · Swiss Ephemeris · Solana RPC · FastAPI · React · TypeScript · Streamlit · Plotly · Pyodide · JavaScript
 
 ---
 
